@@ -3,7 +3,7 @@ name: Automatically trigger an Azure Machine Learning job
 on: [pull_request]
 
 jobs:
-  train:
+  job1:
     runs-on: ubuntu-latest
     steps:
     - name: Placeholder
