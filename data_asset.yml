@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/asset.schema.json
+name: diabetes-dev-folder
+version: 1
+path: ./experimentation/data
+type: uri_folder
+description: Dataset pointing to folder containing csv
