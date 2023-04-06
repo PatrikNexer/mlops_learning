@@ -1,7 +1,6 @@
-name: Code checks
+name: Code checks by pull request
 
-on:
-  workflow_dispatch:
+on: [pull_request]
 
 jobs:
   job1:
